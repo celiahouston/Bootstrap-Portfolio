@@ -1,6 +1,9 @@
 # Bootstrap-Portfolio
-In this project I
-
+In this project I have showcased challenges I have completed during my coursework for the Front-End Web Development bootcamp.
+This portfolio showcases my skills and talents. I intend to continually updated my work as the course progresses; thus, I have added card elements that can be updated in the future. 
+I have used semantic HTML and CSS, such as including a footer element and checking for correct indentation and alt attributes. I have included the use of Bootstrap components, including a Jumbotron, Navigation bar and card components. 
+I have included links to external sites, a hero section, examples of work, how you can contact me, skills and a bit about me. 
+I used bootstrap to limit the use of media queries. 
 ## Screencast 
 
 
