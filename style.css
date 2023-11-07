@@ -18,7 +18,17 @@ body, .card, .p-5, .bg-body-tertiary, .bg-body-secondary, .bg-body-tertiary {
     display: flex;
 }
 
-.nav-bar {
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link, .navbar-brand {
+    color: #BAA884; 
+}
+
+.nav-link.active {
     color: #BAA884;
 }
 
@@ -63,6 +73,7 @@ body, .card, .p-5, .bg-body-tertiary, .bg-body-secondary, .bg-body-tertiary {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 20px ;
 }
 
 .profile-picture {
