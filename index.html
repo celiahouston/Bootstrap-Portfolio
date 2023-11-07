@@ -18,42 +18,33 @@
 </head>
 
 <body>
-
-    <nav class="navbar navbar-expand-lg bg-primary">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Work
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#about-me">About Me</a></li>
-                            <li><a class="dropdown-item" href="#">Work</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Contact Me</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex" role="search">
-                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
+          <a class="navbar-brand" href="#">Navbar</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#work">Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skills">Skills</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about-me">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact-me">Contact Me</a>
+              </li>
+            </ul>
+          </div>
         </div>
-    </nav>
+      </nav>
 
     <section class="hero-banner">
         <h2> Celia Houston Portfolio </h2>
@@ -69,6 +60,7 @@
         </div>
     </div>
 
+    <div class="row"> 
     <section id="about-me">
         <h2>About Me</h2>
         <p> Greetings! I am Celia Houston, a qualified primary school teacher turned coder! </p>
@@ -79,8 +71,19 @@
             in Front-End Web Development!</p>
     </section>
 
+    <section id="contact-me">
+        <h2>Contact Me</h2>
+        <ul>
+            <li><a href="mailto:celia.houston99@gmail.com">celia.houston99@gmail.com</a></li>
+            <li><a href="https://github.com/celiahouston">GitHub</a></li>
+            <li><a href="https://open.spotify.com/user/celiahoustonx?si=nO_pQSvGQvWAJoGJMqasGg">Spotify</a></li>
+            <li><a href="https://www.linkedin.com/in/celia-houston-69a210155/">LinkedIn</a></li>
+        </ul>
+    </section>
+</div>
+
     <h2>Work</h2>
-    <section id="">
+    <section id="work">
         <div id="" class="">
             <a href="https://github.com/celiahouston" class="work-link">
                 <h3>GitHub</h3>
@@ -117,14 +120,18 @@
         </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact Me</h2>
-        <ul>
-            <li><a href="mailto:celia.houston99@gmail.com">celia.houston99@gmail.com</a></li>
-            <li><a href="https://github.com/celiahouston">GitHub</a></li>
-            <li><a href="https://open.spotify.com/user/celiahoustonx?si=nO_pQSvGQvWAJoGJMqasGg">Spotify</a></li>
-            <li><a href="https://www.linkedin.com/in/celia-houston-69a210155/">LinkedIn</a></li>
-        </ul>
+    <section id="skills">
+        <h2>Skills</h2>
+        <p> During the Bootcamp in Front-End Web Development, I expect to gain proficiency in multiple technologies, as listed below, as well as developing soft skills to enhance my work. </p>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>Node.js</li>
+        <li>React</li>
+        <li>Problem Solving</li>
+        <li>Enhancing user-experience</li>
+        <li>Create a GitHub portfolio and repositories.</li>
+        <li>Practice having a good commit history.</li>
     </section>
 
 </body>
