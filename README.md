@@ -4,11 +4,12 @@ This portfolio showcases my skills and talents. I intend to continually updated 
 I have used semantic HTML and CSS, such as including a footer element and checking for correct indentation and alt attributes. I have included the use of Bootstrap components, including a Jumbotron, Navigation bar and card components. 
 I have included links to external sites, a hero section, examples of work, how you can contact me, skills and a bit about me. 
 I used bootstrap to limit the use of media queries. 
+
 ## Screencast 
-
-
+https://watch.screencastify.com/v/AJ7IA3nxNNjx08ONyuba 
 
 ## Deployable URL
+https://celiahouston.github.io/Bootstrap-Portfolio/ 
 
 ## License 
 
